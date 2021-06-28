@@ -26,18 +26,18 @@ body{
     transition: 0.5s;
 }
 .container .clip1{
-    background: url(/images/img1.jpg);
+    background: url(img1.jpg);
     background-size: cover;
     clip-path: polygon(0 0, 55% 0, 20% 100%, 0% 100%);
 }
 .container .clip2{
     background-size: cover;
-    background: url(/images/img2.jpg);
+    background: url(img2.jpg);
     clip-path: polygon(55% 0, 100% 0, 45% 100%, 20% 100%);
 }
 .container .clip3{
     background-size: cover;
-    background: url(/images/img3.jpg);
+    background: url(img3.jpg);
     clip-path: polygon(100% 0, 100% 0, 100% 100%, 45% 100%);
 }
 .container:hover .clip{
